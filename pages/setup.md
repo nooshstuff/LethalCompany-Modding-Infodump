@@ -26,8 +26,6 @@ DOC: https://github.com/Cryptoc1/lc-plugin-sdk/blob/main/README.md
 - if not using `LethalCompany.Plugin.Sdk` some things will be different
 	- `<Product>` instead of `<Title>`
 	- `<AssemblyName>` instead of `<PluginId>`
-  
----
 ---
 ## Barebones BepInEx for LC
 the LC SDK's equivalent to the `Plugin.cs` from [the template](https://github.com/LethalCompany/LethalCompanyTemplate/blob/main/LethalCompanyTemplate/Plugin.cs) is as shown below
@@ -44,3 +42,9 @@ namespace YOUR_ROOT_NAMESPACE
 	}
 }
 ```
+- Take note of `Logger.LogInfo()`. You'll wanna use it for debugging.
+	- It automatically converts numbers and booleans and such you put into it, so don't worry about converting them.
+	- If A string begins with a `$` like `$"bla bla bla {variable}"`, anything placed in `{}` curly brackets will be automatically combined with the string, right in that spot.
+
+---
+Willis's mod which uses LC SDK: https://github.com/willis81808/LethalSettings
