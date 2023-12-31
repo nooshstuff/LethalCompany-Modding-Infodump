@@ -6,7 +6,7 @@ This is about VS Community. For now....
 - In VSC, go to `View>Terminal` or use Ctrl+\` to get a sweet terminal in VSC
 - Whenever I say something like `cmd>` it means put the text block after it into your command line and run it
 ---
-### Making a zip for ThunderStore
+### Making a zip for ThunderStore (LC SDK only!!)
 - cmd> `dotnet publish -c Release`
 	- it'll tell you where it put it (ends in `/bin/Releases/`)
 	- you can put this or the dll you get from just building (Ctrl+Shift+B) in r2modman to test your mod by going into `Settings>Import local mod` and selecting the zip/dll

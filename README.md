@@ -15,6 +15,7 @@ I ask people to teach me how to do stuff except this time I write it down.
 	- *Soft Dependancies feat. LethalSettings* 
 
  ## The Less Basics
+  - [Your Project & MSBuild (& Packages (& References))](pages/msbuild.md)
   - [Equipment] feat. the Portable Halogen Work Light
 
 ## THE BIG ONES
