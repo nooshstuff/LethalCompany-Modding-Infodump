@@ -22,11 +22,9 @@ DOC: https://github.com/Cryptoc1/lc-plugin-sdk/blob/main/README.md
 <Version>0.0.1</Version>
 <ThunderWebsiteUrl>YOUR_GITHUB_REPO</ThunderWebsiteUrl>
 ```
-#### Sidenote About csproj :
-- if not using `LethalCompany.Plugin.Sdk` some things will be different
-	- `<Product>` instead of `<Title>`
-	- `<AssemblyName>` instead of `<PluginId>`
----
+
+If you want to delve deeper into how the VS project works, see [the MSBuild page](../pages/msbuild.md)
+
 ## Barebones BepInEx for LC
 the LC SDK's equivalent to the `Plugin.cs` from [the template](https://github.com/LethalCompany/LethalCompanyTemplate/blob/main/LethalCompanyTemplate/Plugin.cs) is as shown below
 ```cs
