@@ -71,7 +71,7 @@ You can get through most of this just copying from the reference object's proper
 
 **Item Name:** Item's name when scanned/reported by the company
 
-**Weight:** Just treat the part after the `1.` as the weight value in pounds, it's pretty close
+**Weight:** Just treat the part after the `1.` as the weight value in pounds (e.g. 1.05 = 5 lbs), it's pretty close. 
 
 **Max & Min Value:** Value ingame is chosen randomly between the min & max, and then multiplied by a number set by the map (around x0.47 for Experimentation)
 
